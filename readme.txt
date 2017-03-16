@@ -6,4 +6,6 @@ GITÊÇ·Ö²¼Ê½°æ±¾¿ØÖÆÏµÍ³£¬Ã¿Ì¨µçÄÔ¾ÍÊÇÒ»¸öÍêÕûµÄ°æ±¾¿â£¬¹¤×÷Ê±¾Í²»ÐèÒªÁªÍøÁË£»½«¸
 
 ¶þ£º°ÑÎÄ¼þÌí¼Óµ½°æ±¾¿â
 1¡¢git add ÎÄ¼þÃû       ½«ÎÄ¼þÌí¼Óµ½ÔÝ´æÇø
-2¡¢git commit       ½«ÎÄ¼þÌá½»µ½²Ö¿â
+2¡¢git commit -m "xxxÌá½»ÁË"      ½«ÎÄ¼þÌá½»µ½²Ö¿â£¬ÒýºÅÄÚµÄÊÇ×¢ÊÍ
+3¡¢git status       ²é¿´ÊÇ·ñÓÐÎÄ¼þÎ´Ìá½»
+4¡¢git diff ÎÄ¼þÃû      ²é¿´ÎÄ¼þÐÞ¸ÄÁËÊ²Ã´
