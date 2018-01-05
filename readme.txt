@@ -58,3 +58,9 @@ GIT是分布式版本控制系统，每台电脑就是一个完整的版本库�
    git remote -v	查看远程库的详细信息
 2、git push origin master	Git会把master分支推送到远程库对应的远程分支上	
 
+关于修改远程git仓库的代码
+前提： 已经关联远程仓库，切在本地仓库内
+第一步 使用 git pull --no-ff （拉取远程仓库代码，不快进合并步骤）
+ 然后就进入了 vim文件， 修改冲突地方
+然后git push origin master 上传代码就OK了
+
