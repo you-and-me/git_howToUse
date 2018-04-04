@@ -13,7 +13,7 @@ GIT是分布式版本控制系统，每台电脑就是一个完整的版本库�
 
 5、git log         查看历史记录
    git log -pretty=online       查看简洁的历史记录
-   q 	
+   q		退出log
 6、git reset -hard HEAD^        回退到上个版本
    git reset -hard HEAD^^       回退到上上个版本
    git reset -hard HEAD~100        回退到前100个版本
