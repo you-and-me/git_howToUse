@@ -66,3 +66,7 @@ GIT是分布式版本控制系统，每台电脑就是一个完整的版本库�
     2、然后就进入了 vim文件， 修改冲突地方
     3、然后 git push origin master 上传代码就好了（可以把master换成你想要推送的分支）
 
+
+git branch --set-upstream 本地关联远程分支：
+git branch --set-upstream-to=origin/remote_branch  your_branch
+其中，origin/remote_branch是你本地分支对应的远程分支；your_branch是你当前的本地分支。
